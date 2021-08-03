@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.full__list{
+  background-color: darkslategrey;
+  height: 100vh;
+  .box {
+    padding: 20px 10px;
+    .list{
+      .list-item{
+        max-width: 366px;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        position: relative;
+        justify-content: space-between;
+        color: white;
+        margin: 10px 0 ;
+      }
+      .line-through{
+        text-decoration: line-through;
+      }
+    }
+    .add-btn{
+      border:1px solid white;
+      border-radius: 3px;
+      background-color: transparent;
+      padding: 5px 10px;
+      color: white;
+      transition: .6s;
+    }
+    .add-btn:hover{
+      border: 1px solid yellowgreen;
+      color: black;
+      background-color: yellowgreen;
+    }
+    .clear-all{
+      border:1px solid white;
+      border-radius: 3px;
+      background-color: transparent;
+      padding: 5px 10px;
+      color: white;
+      transition: .6s;
+    }
+    .clear-all:hover{
+      border: 1px solid red;
+      color: white;
+      background-color: red;
+    }
+    .text-input{
+      height: 36px;
+
+    }
+    .del-btn{
+      border: 1px solid white;
+      border-radius: 3px;
+      background-color: transparent;
+      padding: 5px 10px;
+      color: white;
+      transition: .6s;
+    }
+    .del-btn:hover{
+      border: 1px solid red;
+      border-radius: 3px;
+      background-color: transparent;
+      padding: 5px 10px;
+      color: red;
+    }
+  }
+}
+
+
+
+
+
+

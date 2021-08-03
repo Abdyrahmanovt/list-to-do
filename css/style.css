@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.full__list {
+  background-color: darkslategrey;
+  height: 100vh;
+}
+.full__list .box {
+  padding: 20px 10px;
+}
+.full__list .box .list .list-item {
+  max-width: 366px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  color: white;
+  margin: 10px 0;
+}
+.full__list .box .list .line-through {
+  text-decoration: line-through;
+}
+.full__list .box .add-btn {
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: transparent;
+  padding: 5px 10px;
+  color: white;
+  transition: 0.6s;
+}
+.full__list .box .add-btn:hover {
+  border: 1px solid yellowgreen;
+  color: black;
+  background-color: yellowgreen;
+}
+.full__list .box .clear-all {
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: transparent;
+  padding: 5px 10px;
+  color: white;
+  transition: 0.6s;
+}
+.full__list .box .clear-all:hover {
+  border: 1px solid red;
+  color: white;
+  background-color: red;
+}
+.full__list .box .text-input {
+  height: 36px;
+}
+.full__list .box .del-btn {
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: transparent;
+  padding: 5px 10px;
+  color: white;
+  transition: 0.6s;
+}
+.full__list .box .del-btn:hover {
+  border: 1px solid red;
+  border-radius: 3px;
+  background-color: transparent;
+  padding: 5px 10px;
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
